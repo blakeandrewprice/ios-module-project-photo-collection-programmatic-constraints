@@ -9,7 +9,6 @@
 import UIKit
 
 class ThemeHelper {
-    
     private let themePreferenceKey = "themePreference"
     
     var themePreference: String? {

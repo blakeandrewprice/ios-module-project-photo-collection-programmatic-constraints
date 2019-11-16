@@ -9,7 +9,6 @@
 import Foundation
 
 class PhotoController {
-    
     func createPhoto(with imageData: Data, title: String) {
         let photo = Photo(imageData: imageData, title: title)
         
@@ -27,7 +26,6 @@ class PhotoController {
         photos.remove(at: index)
         photos.insert(scratch, at: index)
     }
-    
     
     var photos: [Photo] = []
 }
